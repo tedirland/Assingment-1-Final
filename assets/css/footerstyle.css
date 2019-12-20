@@ -151,6 +151,13 @@ form {
    
 }
 
+#myname h1 {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+}
+
 /* Formatting for the Navigation Links on right side */
 .navlinks a {
     float: right;
@@ -170,7 +177,7 @@ form {
 
 .contact {
     padding-right: 20%;
-    
+   
     
 }
 
