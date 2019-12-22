@@ -17,11 +17,13 @@ form {
 .contentbox {
     background: #ffffff;
     width: 960px;
-   
+    margin-top:30px;
     margin: 0 auto;
     
 
 }
+
+
 
 /* Code for all portfolio site images */
 
@@ -130,7 +132,8 @@ form {
 .topnav {
     background-color:#ffffff;
     height: 50px;
-    width: auto;
+    width: 960px;
+    margin:auto;
     border-bottom: #cccccc;
     border-style: solid;
     border-top: none;
@@ -139,7 +142,6 @@ form {
 }
 
 #myname {
-    margin-left: 22%;
     display: block;
     background:#4aaaa5;
     float: left;
@@ -169,20 +171,10 @@ form {
  
 }
 
-.contact, .portfolio, .aboutme {
-    padding-top: 25px;
-    
-   
-}
 
-.contact {
-    padding-right: 20%;
-   
-    
-}
 
 .portfolio, .aboutme {
-    padding-right: 5px;
+    padding-right: 15px;
 }
 
 
