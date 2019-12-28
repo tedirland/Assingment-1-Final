@@ -6,56 +6,98 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Contact</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href="assets/css/footerstyle.css">
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    
+    
 </head>
-<div class="wrapper">
-<body background="assets/images/blue-snow.png">
+
+
 
     <!-- Top Navigation -->
-    <div class="topnav">
-    
-        <!-- Left Box -->
-                <div id="myname">
-                  <h1>Ted Irland</h1>
-                </div>
-        
-        <!-- Right Aligned Links      -->
-        <div class="navlinks">
-          
-          <a class="contact" href="contact.html">Contact</a>
-          <a class="portfolio" href="portfolio.html">Portfolio</a>
-         <a class="aboutme" href="index.html">About</a>
-        </div>
-            
-            </div>
+   
+    <nav class="navbar navbar-light light-blue lighten-4">
 
-    <div class="contentbox">
+        <!-- Left Box -->
+       
+          <!--Brand  -->
+        <a class="navbar-brand" href="#">Ted Irland</a>
+
+        <!-- Collapse Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+        aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        
+        <!-- Collapsable Content -->
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+  
+         <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        <!-- Links -->
+         
+       
+        <!-- Navbar -->
+        </div>
+       
+        
+        
+      </nav>
+           
+
+    <!-- Container  -->
+
+  <div class="container">
       <h2>Contact</h2>
     <hr>
     
-    <div class="actualform">
-        <form>
-        Name: 
-        <br>
-        <input type="text" name="name" placeholder="John Smith"> 
-        <br>
-        Email: <br>
-        <input type="text" name="email" placeholder="example@gmail.com">
-        <br>
-        Message:
-        <br>
-        <input class="messagebox" type="text" name="message" aria-rowspan="4" aria-colspan="50">
-        <br>
-        <br>
+    <form>
+    <div class="form-group">
+       
+        <label for="exampleInputEmail1">Email Address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> 
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+
+   <div class="form-group">
+         <label for ="name">Name</label>
+         <input type="name" class="form-control" id="name" aria-describedby="emailHelp">
+        </div>
+      
+     
+  <div class="form-group">        
+       <label for="message">Message</label>
         
-        <input class="button" type="submit" value="Submit">
+        <input  type="text" class="form-control" id="messagebox" aria-rowspan="4" aria-colspan="50">
+      </div>
+        
+      <input class="btn btn-primary" type="submit" value="Submit">
 
     </form>
-    </div>
-    </div>
-    <div class="push"></div>
+
   </div>
- <footer class="footer"> Copyright &copy;</footer>
+    
+ 
+ <footer class="footer mt-auto py-3"> 
+   <div class="container">
+     <span class="text-muted">Copyright &copy;</span>
+
+
+   </div>
+  </footer>
 </body>
 </html>
